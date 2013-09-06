@@ -1,2 +1,2 @@
-alias ls='ls -aG'
+alias ls='ls -aCFG'
 alias cp='cp -i'
