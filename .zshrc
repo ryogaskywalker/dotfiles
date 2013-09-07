@@ -8,5 +8,5 @@ bindkey -M emacs '^N' history-substring-search-down
 
 source ~/dotfiles/.zsh/aliauses.zsh
 source ~/dotfiles/.zsh/zshrc.zsh
-source ~/colors/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/dotfiles/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/substring/zsh-history-substring-search/zsh-history-substring-search.zsh
