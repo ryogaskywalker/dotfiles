@@ -14,4 +14,4 @@ alias ls='ls -aG'
 alias cp='cp -i'
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
-eval $(gdircolors /path/to/dircolors-solarized/dircolors.ansi-universal)
+#eval $(gdircolors /path/to/dircolors-solarized/dircolors.ansi-universal)
