@@ -1,4 +1,4 @@
-alias ls='ls -aCFG'
+alias ls='ls -CFG'
 alias cp='cp -i'
 
 export LSCOLORS=gxfxcxdxbxegedabagacad
