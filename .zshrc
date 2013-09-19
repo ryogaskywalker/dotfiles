@@ -1,3 +1,4 @@
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # bind k and j for VI mode
 #bindkey -M vicmd 'k' history-substring-search-up
 #bindkey -M vicmd 'j' history-substring-search-down
@@ -10,4 +11,3 @@ source ~/dotfiles/.zsh/aliauses.zsh
 source ~/dotfiles/.zsh/zshrc.zsh
 source ~/dotfiles/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/dotfiles/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
-
