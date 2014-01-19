@@ -33,23 +33,23 @@ autoload -Uz colors
 colors
 
 #do_enter部分
-function do_enter() {
+#function do_enter() {
     # ls_abbrev
-    if [ "$(git rev-parse --is-inside-work-tree 2> /dev/null)" = 'true' ]; then
-        echo
-        echo -e "\e[0;33m--- git status ---\e[0m"
-        git status -sb
-    fi
-    if [ -n "$BUFFER" ]; then
-        zle accept-line
-        return 0
-    fi
-    my-reset-prompt
-    return 0
-}
+#    if [ "$(git rev-parse --is-inside-work-tree 2> /dev/null)" = 'true' ]; then
+#        echo
+#        echo -e "\e[0;33m--- git status ---\e[0m"
+#        git status -sb
+#    fi
+#    if [ -n "$BUFFER" ]; then
+#        zle accept-line
+#        return 0
+#    fi
+#    my-reset-prompt
+#    return 0
+#}
 
-bindkey '^m' do_enter
-zle -N do_enter
+#bindkey '^m' do_enter
+#zle -N do_enter
 function my-reset-prompt() {
     echo
     ls
