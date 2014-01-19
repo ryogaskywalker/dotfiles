@@ -18,6 +18,10 @@ function wikipedia(){
   w3m "ja.wikipedia.org/wiki/$1"
 }
 
+function google(){
+  w3m "google.co.jp/search?q=`echo $@ | tr ' ' +`"
+}
+
 # bind k and j for VI mode
 #bindkey -M vicmd 'k' history-substring-search-up
 #bindkey -M vicmd 'j' history-substring-search-down
