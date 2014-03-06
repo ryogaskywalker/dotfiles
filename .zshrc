@@ -10,6 +10,10 @@ function tex(){
          open $1.pdf
 }
 
+function reload(){
+  source ~/.zshrc
+}
+
 function eow(){
   w3m "eow.alc.co.jp/$1"
 }
@@ -33,4 +37,4 @@ bindkey -M emacs '^N' history-substring-search-down
 source ~/dotfiles/.zsh/aliauses.zsh
 source ~/dotfiles/.zsh/zshrc.zsh
 source ~/dotfiles/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#source ~/dotfiles/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+source ~/dotfiles/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
