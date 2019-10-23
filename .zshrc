@@ -2,6 +2,11 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export GOROOT=~/Documents/go
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:/usr/local/src/android-sdk-linux/tools:/usr/local/src/android-sdk-linux/platform-tools
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+export PGDATA=/usr/local/var/postgres
+export PATH="$PATH:`yarn global bin`"
+eval "$(pyenv init -)"
 
 export BSTINPUTS=$BSTINPUTS:/usr/share/texmf/jbibtex/bst
 
@@ -34,6 +39,10 @@ function wikipedia(){
 
 function google(){
   w3m "google.co.jp/search?q=`echo $@ | tr ' ' +`"
+}
+
+function myprofile(){
+  cat ~/myprofile/myprofile.txt
 }
 
 # bind k and j for VI mode
